@@ -1,12 +1,22 @@
 {
-  "name": "font-midproj-hdv",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cra-template": "1.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1"
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "sass": "^1.43.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^7.2.1",
+    "react-scripts": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,11 +25,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
+  "proxy": "http://backend:3000",
   "browserslist": {
     "production": [
       ">0.2%",
