@@ -11,9 +11,7 @@ COPY package.json /usr/src/app
 COPY package-lock.json /usr/src/app
 
 # Install dependecies
-#RUN npm set progress=false \
-#    && npm config set depth 0 \
-#    && npm i install
+RUN npm install --package-lock-only
 RUN npm ci
 
 # Get all the code needed to run the app
