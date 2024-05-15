@@ -12,13 +12,6 @@
   "optionalDependencies": {
     "fsevents": "^2.1.2"
   },
-  "devServer": {
-    "allowedHosts" : [
-      "frontend",
-      "noroom113.me"
-    ],
-    "disableHostCheck" : true
-  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.4",
