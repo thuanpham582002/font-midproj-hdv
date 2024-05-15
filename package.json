@@ -16,7 +16,8 @@
     "allowedHosts" : [
       "frontend",
       "noroom113.me"
-    ]
+    ],
+    "disableHostCheck" : true
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.0",
