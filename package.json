@@ -14,7 +14,7 @@
   },
   "devServer": {
     "allowedHosts" : [
-      "fontend",
+      "frontend",
       "noroom113.me"
     ]
   },
